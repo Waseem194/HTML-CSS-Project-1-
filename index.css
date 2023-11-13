@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+body {
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+  color: hsl(0, 0%, 41%);
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40%;
+  width: 100%;
+  height: 50px;
+}
+.navbar .left {
+  display: flex;
+  align-items: center;
+  gap: 5em;
+}
+.navbar .left .logo {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.navbar .left nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5em;
+}
+
+.navbar .left nav a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+.navbar .right a {
+  color: hsl(0, 0%, 41%);
+  padding: 10px;
+  text-decoration: none;
+}
+.navbar .right #register {
+  border: 2px solid gray;
+  border-radius: 15px;
+}
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8rem;
+}
+
+.hero-heading {
+  display: flex;
+  flex-direction: column;
+}
+.main-section #left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 2em;
+}
+.main-section #left-section span {
+  color: black;
+  font-size: 70px;
+  font-weight: 900;
+}
+.left-paragraph {
+  margin: 0;
+  word-spacing: 2px;
+}
+#right-section img {
+  width: 100%;
+  height: 65vh;
+}
+#left-btn {
+  color: #ffffff;
+  background-color: black;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+.icon {
+  display: flex;
+  gap: 3em;
+}
